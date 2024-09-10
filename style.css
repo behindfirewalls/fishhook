@@ -1,0 +1,42 @@
+body {
+    width: 300px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  #result {
+    margin-top: 20px;
+  }
+  
+  #score {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  #gauge {
+    width: 200px;
+    height: 20px;
+    margin: 10px auto;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+  }
+  
+  #gauge::before {
+    content: '';
+    display: block;
+    height: 100%;
+    border-radius: 10px;
+    transition: width 0.5s ease-in-out;
+  }
+  
+  #reasons {
+    margin-top: 10px;
+    padding-left: 20px;
+  }
